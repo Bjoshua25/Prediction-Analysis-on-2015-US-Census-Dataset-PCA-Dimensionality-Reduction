@@ -1,5 +1,6 @@
 # **Prediction Analysis on 2015 US Census Dataset | PCA Dimensionality Reduction**  
 
+![](census_cover.png)
 
 ## **INTRODUCTION**  
 The **2015 US Census Dataset** contains various demographic, economic, and social attributes. This project explores the dataset using **Principal Component Analysis (PCA)** for **dimensionality reduction** and prediction analysis. PCA is an essential technique in **Machine Learning** and **Data Science** to reduce the complexity of datasets while preserving essential information.  
@@ -27,15 +28,21 @@ With large and complex datasets, **reducing dimensionality** while retaining key
 - **Encoding Categorical Variables**  
 - **Feature Selection for PCA Application**  
 
+![](boxplot_scaled.png)
+
 ## **EXPLORATORY DATA ANALYSIS (EDA)**  
 - **Statistical Summary of Features**  
 - **Distribution of Key Variables**  
 - **Correlation Heatmap to Identify Highly Correlated Features**  
 
+![](scatterplot.png)
+
 ## **PRINCIPAL COMPONENT ANALYSIS (PCA)**  
 - **Determining the Optimal Number of Principal Components** (Explained Variance Ratio)  
 - **Visualizing PCA Components** using a **2D and 3D plot**  
 - **Interpreting the Contribution of Each Principal Component**  
+
+![](pca_variance_ratio.png)
 
 ## **MODEL TRAINING & EVALUATION**  
 - **Applying PCA-Transformed Features to a Prediction Model**  
